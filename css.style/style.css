@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Oswald:wght@600 & display=swap');
+
+/*font-family: 'Anton', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+/*reset*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegacion{
+    background-color: pink;
+}
+
+h1{
+    
+    font-family: 'Oswald', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: purple;
+    
+}
+    
+
+body{
+   
+    font-family: monospace;
+    
+}
+body{
+    font-size: 16px;
+}
+.fondo{
+    background-color: pink;
+}
+
+#centrado{
+    text-align: center ;  
+}
+#centrado1{
+     text-align: center;
+}
+#centrado{
+    text-align: center ;
+}
+#centrado3{
+    text-align: center ;
+}
+#centrado4{
+    text-align: center ;
+}
+#centrado5{
+    text-align: center ;
+}
+#centrado6{
+    text-align: center ;
+}
+#centrado7{
+    text-align: center ;
+}
+
+p{
+    font-size: 20px;
+}
+h2{
+    font-family: 'Anton', sans-serif; 
+    font-size: 20px;
+    color: blueviolet; 
+
+    
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+div{
+    background-color: white;
+    border: 2px solid orangered;
+    padding: 10px;
+    margin: 60px;
+}
+main{
+    background-color: rgb(231, 189, 189);
+    border: 10px;
+    
+}
+
+.seccion_contacto{
+    background-color: pink;
+}
+
+.formu1{
+    background-color: pink;
+}
+.formulario {
+    background-color: pink;
+    padding: 10px;
+}
+
+.form_control{
+    background-color: pink;
+    font-size: 100%;
+
+}
+.form_control label{
+    font-weight: 600;
+}
+.pie_de_pagina{
+    background-color: rgb(192, 88, 168);
+    color: aliceblue;
+    border: 2px solid orangered;
+    padding: 30px;
+    margin: 100px 50px 20px;
+}
+h3{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase ;
+    padding: 20px;
+    
+
+}
+.sec{
+    height: 500px;
+     
+    background-color: pink;
+    
+
+}
+footer{
+    text-align: center;
+
+}
+
+
+    
+    
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Oswald:wght@600 & display=swap');
+
+/*font-family: 'Anton', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+h2 {
+    text-align: center;
+    background-color: pink;
+    color: black;
+    text-shadow: 0 0 5px #000;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase ;
+    padding: 20px;
+ }
+div{
+    background-color: pink;
+}
+.contenedor{
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(18, 300px);
+    padding: 20px;
+    grid-gap: 20px;
+}
+.item {
+    border: 3px solid white;
+    background-size: cover;
+    background-position: center;
+}
+.item1{
+    background-image: url(../images/piluso2.JPG);
+    
+}
+.item2{
+    background-image: url(../images/piluso4.JPG);
+}
+.item3{
+    background-image: url(../images/campeojo1.JPG);
+}
+.item4{
+    background-image: url(../images/campeojo2.JPG);
+}
+.item5{
+    background-image: url(../images/jeancata1.JPG);
+}
+.item6{
+    background-image: url(../images/jeancata2.JPG);
+}
+.item7{
+    background-image: url(../images/buzorochi.JPG);
+}
+.item8{
+    background-image: url(../images/buzorochi1.JPG);
+}
+.item9{
+    background-image: url(../images/jeanlui.JPG);
+}
+.item10{
+    background-image: url(../images/jeanlui2.JPG);
+}
+.item11{
+    background-image: url(../images/jeanmora.JPG);
+}
+.item12{
+    background-image: url(../images/jeanmora3.JPG);
+}
+.item13{
+    background-image: url(../images/jeanoli.JPG);
+}
+.item14{
+    background-image: url(../images/jeanoli1.JPG);
+}
+.item15{
+    background-image: url(../images/yinyang.JPG);
+}
+.item16{
+    background-image: url(../images/jeanzari1.JPG);
+}
+.item17{
+    background-image: url(../images/lunasol.JPG);
+}
+.item18{
+    background-image: url(../images/leon.JPG);
+}
+
+footer{ 
+    background-color: pink;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+footer .redes {
+    margin-top: 20px;
+}
+footer p{
+    font-size: 20px;
+}
+footer a {
+    color: purple;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
+
+/* Inician las media queries */
+
+@media only screen and (min-width: 480px) {
+
+    .contenedor{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(9, 300px);
+    }
+}
+@media only screen and (min-width:768px) and( max-width:1024px ) {
+
+    .contenedor{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+@media only screen and ( min-width: 1024px) {
+
+    .contenedor{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 300px);
+    }
+    
+}
